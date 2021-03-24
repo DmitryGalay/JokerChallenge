@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aXk-ld-luN">
+    <device id="retina4_7" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tTg-60-tXH">
+            <objects>
+                <viewController id="aXk-ld-luN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hyf-eN-izc"/>
+                        <viewControllerLayoutGuide type="bottom" id="EwU-ku-wQY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eoI-gL-8aa">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="ucU-oT-KST">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="uNp-tL-L6e">
+                                <rect key="frame" x="146.5" y="48" width="374" height="279"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="uNp-tL-L6e" firstAttribute="centerX" secondItem="eoI-gL-8aa" secondAttribute="centerX" id="1oA-qd-IBt"/>
+                            <constraint firstItem="ucU-oT-KST" firstAttribute="top" secondItem="hyf-eN-izc" secondAttribute="bottom" id="GmL-kq-uEq"/>
+                            <constraint firstItem="uNp-tL-L6e" firstAttribute="centerY" secondItem="eoI-gL-8aa" secondAttribute="centerY" id="JXD-PJ-r9f"/>
+                            <constraint firstItem="ucU-oT-KST" firstAttribute="centerY" secondItem="eoI-gL-8aa" secondAttribute="centerY" id="UoY-Yo-bNm"/>
+                            <constraint firstItem="EwU-ku-wQY" firstAttribute="top" secondItem="ucU-oT-KST" secondAttribute="bottom" id="XGS-5z-CFd"/>
+                            <constraint firstItem="ucU-oT-KST" firstAttribute="leading" secondItem="eoI-gL-8aa" secondAttribute="leading" id="ZNs-SS-ZDd"/>
+                            <constraint firstAttribute="trailing" secondItem="ucU-oT-KST" secondAttribute="trailing" id="ec6-at-WnU"/>
+                            <constraint firstItem="ucU-oT-KST" firstAttribute="centerX" secondItem="eoI-gL-8aa" secondAttribute="centerX" id="lhN-PQ-JTP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WYG-r8-8nw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="936.79999999999995" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="414" height="896"/>
+        <image name="logo" width="374" height="279"/>
+    </resources>
+</document>

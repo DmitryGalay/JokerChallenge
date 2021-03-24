@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PushViewController" customModule="Joker_Tiler" customModuleProvider="target">
+            <connections>
+                <outlet property="pushTitleLabel" destination="D0J-Sf-vrm" id="bek-US-elH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="push_bg" translatesAutoresizingMaskIntoConstraints="NO" id="mRR-fF-Xuw">
+                    <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="oNg-A7-lkv">
+                    <rect key="frame" x="64" y="146.5" width="768" height="206.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="cJn-pB-SNM">
+                            <rect key="frame" x="0.0" y="0.0" width="768" height="52.5"/>
+                            <string key="text">ALLOW NOTIFICATIONS ABOUT 
+BONUSES AND PROMOS</string>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D0J-Sf-vrm">
+                            <rect key="frame" x="0.0" y="72.5" width="768" height="0.0"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="azd-uO-fem">
+                            <rect key="frame" x="0.0" y="92.5" width="768" height="60"/>
+                            <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="MKx-nh-2jn"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                            <state key="normal" title="Yes, notify me about bonuses">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="enablePushDidTapAction:" destination="-1" eventType="touchUpInside" id="9Tb-1k-ywF"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5yk-8z-o52">
+                            <rect key="frame" x="0.0" y="172.5" width="768" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <state key="normal" title="Skip">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="skipPushDidTapAction:" destination="-1" eventType="touchUpInside" id="26D-wG-UlI"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" image="push_logo" translatesAutoresizingMaskIntoConstraints="NO" id="KNQ-NV-jOY">
+                    <rect key="frame" x="84" y="10" width="728" height="126.5"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="oNg-A7-lkv" secondAttribute="bottom" constant="40" id="1Vi-75-QiO"/>
+                <constraint firstItem="KNQ-NV-jOY" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="E01-AI-x3g"/>
+                <constraint firstItem="mRR-fF-Xuw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="G6i-et-pqh"/>
+                <constraint firstItem="KNQ-NV-jOY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="40" id="J15-vR-MKL"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="oNg-A7-lkv" secondAttribute="trailing" constant="20" id="MaC-Mp-0AZ"/>
+                <constraint firstItem="KNQ-NV-jOY" firstAttribute="centerY" secondItem="mRR-fF-Xuw" secondAttribute="centerY" multiplier="0.7" priority="500" id="SJb-LB-OSI"/>
+                <constraint firstAttribute="bottom" secondItem="mRR-fF-Xuw" secondAttribute="bottom" id="W9c-t1-U5M"/>
+                <constraint firstItem="oNg-A7-lkv" firstAttribute="top" relation="greaterThanOrEqual" secondItem="KNQ-NV-jOY" secondAttribute="bottom" constant="10" id="ZBZ-Lk-S7e"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KNQ-NV-jOY" secondAttribute="trailing" constant="40" id="ZI6-3h-2jO"/>
+                <constraint firstItem="mRR-fF-Xuw" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="hSX-5l-cFi"/>
+                <constraint firstItem="mRR-fF-Xuw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="nga-zY-bbs"/>
+                <constraint firstItem="oNg-A7-lkv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="sCU-pX-Ad6"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="127.90178571428571"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="push_bg" width="414" height="736"/>
+        <image name="push_logo" width="307" height="228"/>
+    </resources>
+</document>

@@ -1,0 +1,32 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+target 'JokerMemoryChallenge' do
+  use_frameworks!
+
+	pod 'Amplitude'
+	pod 'AppsFlyerFramework' , '5.3.0'
+  pod 'FacebookCore'
+  pod 'FBSDKLoginKit'
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
+	pod 'Firebase/Analytics'
+	pod 'Firebase/RemoteConfig'
+	pod 'Firebase/AdMob'
+
+end
+
+target 'JokerMemoryChallengeHD' do
+  use_frameworks!
+
+	pod 'Amplitude'
+	pod 'AppsFlyerFramework' , '5.3.0'
+  pod 'FacebookCore'
+  pod 'FBSDKLoginKit'
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
+	pod 'Firebase/Analytics'
+	pod 'Firebase/RemoteConfig'
+	pod 'Firebase/AdMob'
+
+end

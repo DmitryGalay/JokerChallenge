@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoadingView" customModule="DemoProject" customModuleProvider="target">
+            <connections>
+                <outlet property="animatedView" destination="mjM-mA-Q4p" id="FFU-1S-I3I"/>
+                <outlet property="progressLabel" destination="AKR-y3-w2d" id="kU6-dz-j7u"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="518" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="loading_animation" translatesAutoresizingMaskIntoConstraints="NO" id="mjM-mA-Q4p">
+                    <rect key="frame" x="10" y="10" width="498" height="256"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AKR-y3-w2d">
+                    <rect key="frame" x="236" y="276" width="46.5" height="282"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading_logo" translatesAutoresizingMaskIntoConstraints="NO" id="VdV-Ee-kaN">
+                    <rect key="frame" x="60" y="74" width="398" height="128"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="AKR-y3-w2d" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="A5x-FJ-Gu6"/>
+                <constraint firstItem="VdV-Ee-kaN" firstAttribute="centerY" secondItem="mjM-mA-Q4p" secondAttribute="centerY" id="NMN-r0-bIu"/>
+                <constraint firstItem="VdV-Ee-kaN" firstAttribute="centerX" secondItem="mjM-mA-Q4p" secondAttribute="centerX" id="PXH-RY-UAc"/>
+                <constraint firstItem="AKR-y3-w2d" firstAttribute="top" secondItem="mjM-mA-Q4p" secondAttribute="bottom" constant="10" id="YHk-RN-eTR"/>
+                <constraint firstItem="mjM-mA-Q4p" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="Ybw-IP-gNe"/>
+                <constraint firstItem="mjM-mA-Q4p" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="dTg-i3-RLf"/>
+                <constraint firstItem="VdV-Ee-kaN" firstAttribute="width" secondItem="mjM-mA-Q4p" secondAttribute="width" multiplier="0.8" id="nlL-LF-xEi"/>
+                <constraint firstAttribute="trailing" secondItem="mjM-mA-Q4p" secondAttribute="trailing" constant="10" id="q30-88-ddS"/>
+                <constraint firstAttribute="bottom" secondItem="AKR-y3-w2d" secondAttribute="bottom" constant="10" id="qnC-0b-iQN"/>
+                <constraint firstItem="VdV-Ee-kaN" firstAttribute="height" secondItem="mjM-mA-Q4p" secondAttribute="height" multiplier="0.5" id="ywB-TT-IG3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="211.59420289855075" y="-81.696428571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="loading_animation" width="128" height="128"/>
+        <image name="loading_logo" width="128" height="128"/>
+    </resources>
+</document>

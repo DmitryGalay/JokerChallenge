@@ -1,0 +1,1035 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3212539724C09A4800485CE5 /* TestRemoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212537424C09A4800485CE5 /* TestRemoteManager.swift */; };
+		3212539824C09A4800485CE5 /* TestRemoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212537424C09A4800485CE5 /* TestRemoteManager.swift */; };
+		3212539924C09A4800485CE5 /* TestManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212537524C09A4800485CE5 /* TestManger.swift */; };
+		3212539A24C09A4800485CE5 /* TestManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212537524C09A4800485CE5 /* TestManger.swift */; };
+		3212539B24C09A4800485CE5 /* NibLoadableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212537724C09A4800485CE5 /* NibLoadableProtocol.swift */; };
+		3212539C24C09A4800485CE5 /* NibLoadableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212537724C09A4800485CE5 /* NibLoadableProtocol.swift */; };
+		3212539D24C09A4800485CE5 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3212537A24C09A4800485CE5 /* LoadingView.xib */; };
+		3212539E24C09A4800485CE5 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3212537A24C09A4800485CE5 /* LoadingView.xib */; };
+		3212539F24C09A4800485CE5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212537B24C09A4800485CE5 /* LoadingView.swift */; };
+		321253A024C09A4800485CE5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212537B24C09A4800485CE5 /* LoadingView.swift */; };
+		321253A124C09A4800485CE5 /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3212537C24C09A4800485CE5 /* LoadingViewController.xib */; };
+		321253A224C09A4800485CE5 /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3212537C24C09A4800485CE5 /* LoadingViewController.xib */; };
+		321253A324C09A4800485CE5 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212537D24C09A4800485CE5 /* LoadingViewController.swift */; };
+		321253A424C09A4800485CE5 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212537D24C09A4800485CE5 /* LoadingViewController.swift */; };
+		321253A524C09A4800485CE5 /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212537F24C09A4800485CE5 /* PushViewController.swift */; };
+		321253A624C09A4800485CE5 /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212537F24C09A4800485CE5 /* PushViewController.swift */; };
+		321253A724C09A4800485CE5 /* PushViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3212538024C09A4800485CE5 /* PushViewController.xib */; };
+		321253A824C09A4800485CE5 /* PushViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3212538024C09A4800485CE5 /* PushViewController.xib */; };
+		321253A924C09A4800485CE5 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538224C09A4800485CE5 /* Logger.swift */; };
+		321253AA24C09A4800485CE5 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538224C09A4800485CE5 /* Logger.swift */; };
+		321253AB24C09A4800485CE5 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538324C09A4800485CE5 /* AppInfo.swift */; };
+		321253AC24C09A4800485CE5 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538324C09A4800485CE5 /* AppInfo.swift */; };
+		321253AD24C09A4800485CE5 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538424C09A4800485CE5 /* Keychain.swift */; };
+		321253AE24C09A4800485CE5 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538424C09A4800485CE5 /* Keychain.swift */; };
+		321253AF24C09A4800485CE5 /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538524C09A4800485CE5 /* DeviceInfo.swift */; };
+		321253B024C09A4800485CE5 /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538524C09A4800485CE5 /* DeviceInfo.swift */; };
+		321253B124C09A4800485CE5 /* UserAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538624C09A4800485CE5 /* UserAgent.swift */; };
+		321253B224C09A4800485CE5 /* UserAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538624C09A4800485CE5 /* UserAgent.swift */; };
+		321253B324C09A4800485CE5 /* StringExtenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538724C09A4800485CE5 /* StringExtenstions.swift */; };
+		321253B424C09A4800485CE5 /* StringExtenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538724C09A4800485CE5 /* StringExtenstions.swift */; };
+		321253B524C09A4800485CE5 /* LaunchArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538824C09A4800485CE5 /* LaunchArguments.swift */; };
+		321253B624C09A4800485CE5 /* LaunchArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538824C09A4800485CE5 /* LaunchArguments.swift */; };
+		321253B724C09A4800485CE5 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538A24C09A4800485CE5 /* AppSettings.swift */; };
+		321253B824C09A4800485CE5 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538A24C09A4800485CE5 /* AppSettings.swift */; };
+		321253B924C09A4800485CE5 /* RemoteConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538B24C09A4800485CE5 /* RemoteConfigManager.swift */; };
+		321253BA24C09A4800485CE5 /* RemoteConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538B24C09A4800485CE5 /* RemoteConfigManager.swift */; };
+		321253BB24C09A4800485CE5 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538C24C09A4800485CE5 /* ConfigurationManager.swift */; };
+		321253BC24C09A4800485CE5 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538C24C09A4800485CE5 /* ConfigurationManager.swift */; };
+		321253BD24C09A4800485CE5 /* LinkBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538D24C09A4800485CE5 /* LinkBuilder.swift */; };
+		321253BE24C09A4800485CE5 /* LinkBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538D24C09A4800485CE5 /* LinkBuilder.swift */; };
+		321253BF24C09A4800485CE5 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538F24C09A4800485CE5 /* APIManager.swift */; };
+		321253C024C09A4800485CE5 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212538F24C09A4800485CE5 /* APIManager.swift */; };
+		321253C124C09A4800485CE5 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212539024C09A4800485CE5 /* SessionManager.swift */; };
+		321253C224C09A4800485CE5 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212539024C09A4800485CE5 /* SessionManager.swift */; };
+		321253C324C09A4800485CE5 /* AdMobManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212539224C09A4800485CE5 /* AdMobManager.swift */; };
+		321253C424C09A4800485CE5 /* AdMobManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212539224C09A4800485CE5 /* AdMobManager.swift */; };
+		321253C524C09A4800485CE5 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212539324C09A4800485CE5 /* NotificationManager.swift */; };
+		321253C624C09A4800485CE5 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212539324C09A4800485CE5 /* NotificationManager.swift */; };
+		321253C724C09A4800485CE5 /* ConfigurationSettingsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212539424C09A4800485CE5 /* ConfigurationSettingsStorage.swift */; };
+		321253C824C09A4800485CE5 /* ConfigurationSettingsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212539424C09A4800485CE5 /* ConfigurationSettingsStorage.swift */; };
+		321253C924C09A4800485CE5 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212539524C09A4800485CE5 /* NavigationCoordinator.swift */; };
+		321253CA24C09A4800485CE5 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212539524C09A4800485CE5 /* NavigationCoordinator.swift */; };
+		321253CB24C09A4800485CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212539624C09A4800485CE5 /* AppDelegate.swift */; };
+		321253CC24C09A4800485CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3212539624C09A4800485CE5 /* AppDelegate.swift */; };
+		327CB08F2452DB8F004FDD96 /* LooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327CB08E2452DB8F004FDD96 /* LooseViewController.swift */; };
+		3299B71524506BA800D9E1D2 /* music in Resources */ = {isa = PBXBuildFile; fileRef = 3299B71424506BA800D9E1D2 /* music */; };
+		3299B72824506FC900D9E1D2 /* AudioSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3299B72424506FC800D9E1D2 /* AudioSource.swift */; };
+		3299B72924506FC900D9E1D2 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3299B72524506FC800D9E1D2 /* Options.swift */; };
+		3299B72A24506FC900D9E1D2 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3299B72624506FC800D9E1D2 /* AudioManager.swift */; };
+		3299B72B24506FC900D9E1D2 /* VibrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3299B72724506FC900D9E1D2 /* VibrationManager.swift */; };
+		3F2B03422278A5A900F142B1 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2B03412278A5A900F142B1 /* GameKit.framework */; };
+		69BDCDBB78D25DEBFE2C1758 /* Pods_JokerMemoryChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B490BECCF2008EA2D9C21C2 /* Pods_JokerMemoryChallenge.framework */; };
+		781E59F523FC2F3300B31CE2 /* SpecialOfferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781E59F423FC2F3300B31CE2 /* SpecialOfferViewController.swift */; };
+		781E59F923FC8E5700B31CE2 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 781E59F823FC8E5700B31CE2 /* backgroundMusic.mp3 */; };
+		84C9B6441C5CA9431E482BE9 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		9A4D227B21BEC6D20073BBD5 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D226D21BEC6D10073BBD5 /* Concentration.swift */; };
+		9A4D227C21BEC6D20073BBD5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D226E21BEC6D10073BBD5 /* GameViewController.swift */; };
+		9A4D227D21BEC6D20073BBD5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D226F21BEC6D10073BBD5 /* Card.swift */; };
+		9A4D227E21BEC6D20073BBD5 /* PurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D227021BEC6D20073BBD5 /* PurchaseViewController.swift */; };
+		9A4D228221BEC6D20073BBD5 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D227521BEC6D20073BBD5 /* ResultViewController.swift */; };
+		9A4D228421BEC6D20073BBD5 /* OptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D227821BEC6D20073BBD5 /* OptionsTableViewCell.swift */; };
+		9A4D228521BEC6D20073BBD5 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D227921BEC6D20073BBD5 /* OptionsViewController.swift */; };
+		9A4D228621BEC6D20073BBD5 /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D227A21BEC6D20073BBD5 /* GameSettings.swift */; };
+		9A5B082D240EA78E00BF40FC /* LevelController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A5B082B240EA78E00BF40FC /* LevelController.xib */; };
+		9A5B082E240EA78E00BF40FC /* LevelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B082C240EA78E00BF40FC /* LevelController.swift */; };
+		9AC9D59C21BE5968001C9925 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9D59B21BE5968001C9925 /* ViewController.swift */; };
+		9AC9D59F21BE5968001C9925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC9D59D21BE5968001C9925 /* Main.storyboard */; };
+		9AC9D5A421BE596D001C9925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC9D5A221BE596D001C9925 /* LaunchScreen.storyboard */; };
+		9AEB947A245839970022E76D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D226E21BEC6D10073BBD5 /* GameViewController.swift */; };
+		9AEB947C245839970022E76D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9D59B21BE5968001C9925 /* ViewController.swift */; };
+		9AEB947D245839970022E76D /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3299B72524506FC800D9E1D2 /* Options.swift */; };
+		9AEB9480245839970022E76D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D226F21BEC6D10073BBD5 /* Card.swift */; };
+		9AEB9481245839970022E76D /* LevelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B082C240EA78E00BF40FC /* LevelController.swift */; };
+		9AEB9484245839970022E76D /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D227A21BEC6D20073BBD5 /* GameSettings.swift */; };
+		9AEB9485245839970022E76D /* VibrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3299B72724506FC900D9E1D2 /* VibrationManager.swift */; };
+		9AEB9487245839970022E76D /* AudioSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3299B72424506FC800D9E1D2 /* AudioSource.swift */; };
+		9AEB948A245839970022E76D /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D227521BEC6D20073BBD5 /* ResultViewController.swift */; };
+		9AEB948D245839970022E76D /* LooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327CB08E2452DB8F004FDD96 /* LooseViewController.swift */; };
+		9AEB948F245839970022E76D /* SpecialOfferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781E59F423FC2F3300B31CE2 /* SpecialOfferViewController.swift */; };
+		9AEB9490245839970022E76D /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D227921BEC6D20073BBD5 /* OptionsViewController.swift */; };
+		9AEB9493245839970022E76D /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3299B72624506FC800D9E1D2 /* AudioManager.swift */; };
+		9AEB9494245839970022E76D /* OptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D227821BEC6D20073BBD5 /* OptionsTableViewCell.swift */; };
+		9AEB9497245839970022E76D /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D226D21BEC6D10073BBD5 /* Concentration.swift */; };
+		9AEB9498245839970022E76D /* PurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D227021BEC6D20073BBD5 /* PurchaseViewController.swift */; };
+		9AEB949A245839970022E76D /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2B03412278A5A900F142B1 /* GameKit.framework */; };
+		9AEB949E245839970022E76D /* LevelController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A5B082B240EA78E00BF40FC /* LevelController.xib */; };
+		9AEB94A0245839970022E76D /* music in Resources */ = {isa = PBXBuildFile; fileRef = 3299B71424506BA800D9E1D2 /* music */; };
+		9AEB94A1245839970022E76D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC9D5A221BE596D001C9925 /* LaunchScreen.storyboard */; };
+		9AEB94A2245839970022E76D /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 781E59F823FC8E5700B31CE2 /* backgroundMusic.mp3 */; };
+		9AEB94A4245839970022E76D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC9D59D21BE5968001C9925 /* Main.storyboard */; };
+		9AEB94B124583C660022E76D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AEB94AE24583C650022E76D /* GoogleService-Info.plist */; };
+		9AEB94B324583C870022E76D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AEB94B024583C660022E76D /* GoogleService-Info.plist */; };
+		9AEB94B4245840AA0022E76D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC4759C2436170F00A80BE9 /* Assets.xcassets */; };
+		9AEB94B5245840BB0022E76D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC4759C2436170F00A80BE9 /* Assets.xcassets */; };
+		D5840E3C4E41DC10C164E298 /* Pods_JokerMemoryChallengeHD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056FEB16C6FB4D35F16D075E /* Pods_JokerMemoryChallengeHD.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F2B033F22789F3A00F142B1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEB94A6245839970022E76D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		056FEB16C6FB4D35F16D075E /* Pods_JokerMemoryChallengeHD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JokerMemoryChallengeHD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ECBAC33EED54B2A6B0FD4FF /* Pods-JokerMemoryChallengeHD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JokerMemoryChallengeHD.release.xcconfig"; path = "Target Support Files/Pods-JokerMemoryChallengeHD/Pods-JokerMemoryChallengeHD.release.xcconfig"; sourceTree = "<group>"; };
+		21CE4C0465B25CEF060AD834 /* Pods-PhoenixTiles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoenixTiles.release.xcconfig"; path = "Target Support Files/Pods-PhoenixTiles/Pods-PhoenixTiles.release.xcconfig"; sourceTree = "<group>"; };
+		31DF0C9FF8C9F7D328C787EB /* Pods-JokerMemoryChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JokerMemoryChallenge.debug.xcconfig"; path = "Target Support Files/Pods-JokerMemoryChallenge/Pods-JokerMemoryChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		3212537424C09A4800485CE5 /* TestRemoteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRemoteManager.swift; sourceTree = "<group>"; };
+		3212537524C09A4800485CE5 /* TestManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestManger.swift; sourceTree = "<group>"; };
+		3212537724C09A4800485CE5 /* NibLoadableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableProtocol.swift; sourceTree = "<group>"; };
+		3212537A24C09A4800485CE5 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		3212537B24C09A4800485CE5 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		3212537C24C09A4800485CE5 /* LoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingViewController.xib; sourceTree = "<group>"; };
+		3212537D24C09A4800485CE5 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		3212537F24C09A4800485CE5 /* PushViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
+		3212538024C09A4800485CE5 /* PushViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PushViewController.xib; sourceTree = "<group>"; };
+		3212538224C09A4800485CE5 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		3212538324C09A4800485CE5 /* AppInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		3212538424C09A4800485CE5 /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		3212538524C09A4800485CE5 /* DeviceInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
+		3212538624C09A4800485CE5 /* UserAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAgent.swift; sourceTree = "<group>"; };
+		3212538724C09A4800485CE5 /* StringExtenstions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtenstions.swift; sourceTree = "<group>"; };
+		3212538824C09A4800485CE5 /* LaunchArguments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchArguments.swift; sourceTree = "<group>"; };
+		3212538A24C09A4800485CE5 /* AppSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		3212538B24C09A4800485CE5 /* RemoteConfigManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteConfigManager.swift; sourceTree = "<group>"; };
+		3212538C24C09A4800485CE5 /* ConfigurationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
+		3212538D24C09A4800485CE5 /* LinkBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkBuilder.swift; sourceTree = "<group>"; };
+		3212538F24C09A4800485CE5 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		3212539024C09A4800485CE5 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		3212539224C09A4800485CE5 /* AdMobManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdMobManager.swift; sourceTree = "<group>"; };
+		3212539324C09A4800485CE5 /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		3212539424C09A4800485CE5 /* ConfigurationSettingsStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationSettingsStorage.swift; sourceTree = "<group>"; };
+		3212539524C09A4800485CE5 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
+		3212539624C09A4800485CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		327CB08E2452DB8F004FDD96 /* LooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LooseViewController.swift; sourceTree = "<group>"; };
+		3299B71424506BA800D9E1D2 /* music */ = {isa = PBXFileReference; lastKnownFileType = folder; path = music; sourceTree = "<group>"; };
+		3299B72424506FC800D9E1D2 /* AudioSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioSource.swift; path = GameInteractiveManager/AudioSource.swift; sourceTree = "<group>"; };
+		3299B72524506FC800D9E1D2 /* Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Options.swift; path = GameInteractiveManager/Options.swift; sourceTree = "<group>"; };
+		3299B72624506FC800D9E1D2 /* AudioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioManager.swift; path = GameInteractiveManager/AudioManager.swift; sourceTree = "<group>"; };
+		3299B72724506FC900D9E1D2 /* VibrationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VibrationManager.swift; path = GameInteractiveManager/VibrationManager.swift; sourceTree = "<group>"; };
+		3F2B03412278A5A900F142B1 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		5B490BECCF2008EA2D9C21C2 /* Pods_JokerMemoryChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JokerMemoryChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1D8FD8F19E7E474CD692C3 /* Pods-JokerMemoryChallengeHD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JokerMemoryChallengeHD.debug.xcconfig"; path = "Target Support Files/Pods-JokerMemoryChallengeHD/Pods-JokerMemoryChallengeHD.debug.xcconfig"; sourceTree = "<group>"; };
+		717E6647C006D2C629373BA6 /* Pods-PhoenixTiles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoenixTiles.debug.xcconfig"; path = "Target Support Files/Pods-PhoenixTiles/Pods-PhoenixTiles.debug.xcconfig"; sourceTree = "<group>"; };
+		781E59F423FC2F3300B31CE2 /* SpecialOfferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialOfferViewController.swift; sourceTree = "<group>"; };
+		781E59F823FC8E5700B31CE2 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
+		8F9645F8432A6E313711B73A /* Pods-JokerMemoryChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JokerMemoryChallenge.release.xcconfig"; path = "Target Support Files/Pods-JokerMemoryChallenge/Pods-JokerMemoryChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		9A4D226D21BEC6D10073BBD5 /* Concentration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		9A4D226E21BEC6D10073BBD5 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9A4D226F21BEC6D10073BBD5 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		9A4D227021BEC6D20073BBD5 /* PurchaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseViewController.swift; sourceTree = "<group>"; };
+		9A4D227521BEC6D20073BBD5 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		9A4D227821BEC6D20073BBD5 /* OptionsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsTableViewCell.swift; sourceTree = "<group>"; };
+		9A4D227921BEC6D20073BBD5 /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		9A4D227A21BEC6D20073BBD5 /* GameSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
+		9A5B082B240EA78E00BF40FC /* LevelController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelController.xib; sourceTree = "<group>"; };
+		9A5B082C240EA78E00BF40FC /* LevelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelController.swift; sourceTree = "<group>"; };
+		9AC4759C2436170F00A80BE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AC9D59621BE5968001C9925 /* Joker Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Joker Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC9D59B21BE5968001C9925 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AC9D59E21BE5968001C9925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AC9D5A321BE596D001C9925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AC9D5A521BE596D001C9925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AEB94AB245839970022E76D /* Joker Challenge HD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Joker Challenge HD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AEB94AC245839980022E76D /* InfoHD.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InfoHD.plist; path = /Users/Artyom/Documents/work/GamesAppCent/MemoryButton/JokerMemoryChallenge/JokerMemoryChallenge/InfoHD.plist; sourceTree = "<absolute>"; };
+		9AEB94AE24583C650022E76D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9AEB94B024583C660022E76D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9AEB94B6245843C50022E76D /* Joker Memory Challenge HD.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Joker Memory Challenge HD.entitlements"; sourceTree = "<group>"; };
+		9AEB94B7245844AA0022E76D /* Joker Memory Challenge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Joker Memory Challenge.entitlements"; sourceTree = "<group>"; };
+		D90F35EB9A63122E647162B5 /* Pods-LeprechaunFindLucky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeprechaunFindLucky.release.xcconfig"; path = "Target Support Files/Pods-LeprechaunFindLucky/Pods-LeprechaunFindLucky.release.xcconfig"; sourceTree = "<group>"; };
+		E9817A0E147A839F9DF381E2 /* Pods-LeprechaunFindLucky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeprechaunFindLucky.debug.xcconfig"; path = "Target Support Files/Pods-LeprechaunFindLucky/Pods-LeprechaunFindLucky.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AC9D59321BE5968001C9925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2B03422278A5A900F142B1 /* GameKit.framework in Frameworks */,
+				84C9B6441C5CA9431E482BE9 /* (null) in Frameworks */,
+				69BDCDBB78D25DEBFE2C1758 /* Pods_JokerMemoryChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEB9499245839970022E76D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AEB949A245839970022E76D /* GameKit.framework in Frameworks */,
+				D5840E3C4E41DC10C164E298 /* Pods_JokerMemoryChallengeHD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3212537224C09A4800485CE5 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				3212537324C09A4800485CE5 /* TestManager */,
+				3212537624C09A4800485CE5 /* UI */,
+				3212538124C09A4800485CE5 /* Utils */,
+				3212538924C09A4800485CE5 /* Storage */,
+				3212538B24C09A4800485CE5 /* RemoteConfigManager.swift */,
+				3212538C24C09A4800485CE5 /* ConfigurationManager.swift */,
+				3212538D24C09A4800485CE5 /* LinkBuilder.swift */,
+				3212538E24C09A4800485CE5 /* API */,
+				3212539124C09A4800485CE5 /* HelperManagers */,
+				3212539424C09A4800485CE5 /* ConfigurationSettingsStorage.swift */,
+				3212539524C09A4800485CE5 /* NavigationCoordinator.swift */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		3212537324C09A4800485CE5 /* TestManager */ = {
+			isa = PBXGroup;
+			children = (
+				3212537424C09A4800485CE5 /* TestRemoteManager.swift */,
+				3212537524C09A4800485CE5 /* TestManger.swift */,
+			);
+			path = TestManager;
+			sourceTree = "<group>";
+		};
+		3212537624C09A4800485CE5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3212537724C09A4800485CE5 /* NibLoadableProtocol.swift */,
+				3212537824C09A4800485CE5 /* LoadingViewController */,
+				3212537E24C09A4800485CE5 /* PushViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3212537824C09A4800485CE5 /* LoadingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3212537924C09A4800485CE5 /* LoadingView */,
+				3212537C24C09A4800485CE5 /* LoadingViewController.xib */,
+				3212537D24C09A4800485CE5 /* LoadingViewController.swift */,
+			);
+			path = LoadingViewController;
+			sourceTree = "<group>";
+		};
+		3212537924C09A4800485CE5 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				3212537A24C09A4800485CE5 /* LoadingView.xib */,
+				3212537B24C09A4800485CE5 /* LoadingView.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		3212537E24C09A4800485CE5 /* PushViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3212537F24C09A4800485CE5 /* PushViewController.swift */,
+				3212538024C09A4800485CE5 /* PushViewController.xib */,
+			);
+			path = PushViewController;
+			sourceTree = "<group>";
+		};
+		3212538124C09A4800485CE5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3212538224C09A4800485CE5 /* Logger.swift */,
+				3212538324C09A4800485CE5 /* AppInfo.swift */,
+				3212538424C09A4800485CE5 /* Keychain.swift */,
+				3212538524C09A4800485CE5 /* DeviceInfo.swift */,
+				3212538624C09A4800485CE5 /* UserAgent.swift */,
+				3212538724C09A4800485CE5 /* StringExtenstions.swift */,
+				3212538824C09A4800485CE5 /* LaunchArguments.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3212538924C09A4800485CE5 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				3212538A24C09A4800485CE5 /* AppSettings.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		3212538E24C09A4800485CE5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3212538F24C09A4800485CE5 /* APIManager.swift */,
+				3212539024C09A4800485CE5 /* SessionManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3212539124C09A4800485CE5 /* HelperManagers */ = {
+			isa = PBXGroup;
+			children = (
+				3212539224C09A4800485CE5 /* AdMobManager.swift */,
+				3212539324C09A4800485CE5 /* NotificationManager.swift */,
+			);
+			path = HelperManagers;
+			sourceTree = "<group>";
+		};
+		515109ADAA896A3C895DAE6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				717E6647C006D2C629373BA6 /* Pods-PhoenixTiles.debug.xcconfig */,
+				21CE4C0465B25CEF060AD834 /* Pods-PhoenixTiles.release.xcconfig */,
+				E9817A0E147A839F9DF381E2 /* Pods-LeprechaunFindLucky.debug.xcconfig */,
+				D90F35EB9A63122E647162B5 /* Pods-LeprechaunFindLucky.release.xcconfig */,
+				31DF0C9FF8C9F7D328C787EB /* Pods-JokerMemoryChallenge.debug.xcconfig */,
+				8F9645F8432A6E313711B73A /* Pods-JokerMemoryChallenge.release.xcconfig */,
+				6B1D8FD8F19E7E474CD692C3 /* Pods-JokerMemoryChallengeHD.debug.xcconfig */,
+				0ECBAC33EED54B2A6B0FD4FF /* Pods-JokerMemoryChallengeHD.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9A4D226C21BEC6D10073BBD5 /* GameMVC */ = {
+			isa = PBXGroup;
+			children = (
+				9A4D226D21BEC6D10073BBD5 /* Concentration.swift */,
+				9A4D226E21BEC6D10073BBD5 /* GameViewController.swift */,
+				9A4D226F21BEC6D10073BBD5 /* Card.swift */,
+			);
+			path = GameMVC;
+			sourceTree = "<group>";
+		};
+		9A4D227621BEC6D20073BBD5 /* OptionsMVC */ = {
+			isa = PBXGroup;
+			children = (
+				9A4D227821BEC6D20073BBD5 /* OptionsTableViewCell.swift */,
+				9A4D227A21BEC6D20073BBD5 /* GameSettings.swift */,
+			);
+			path = OptionsMVC;
+			sourceTree = "<group>";
+		};
+		9A5B0829240EA78E00BF40FC /* LevelController */ = {
+			isa = PBXGroup;
+			children = (
+				9A5B082A240EA78E00BF40FC /* New Group */,
+			);
+			path = LevelController;
+			sourceTree = "<group>";
+		};
+		9A5B082A240EA78E00BF40FC /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				9A5B082B240EA78E00BF40FC /* LevelController.xib */,
+				9A5B082C240EA78E00BF40FC /* LevelController.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		9AC9D58D21BE5968001C9925 = {
+			isa = PBXGroup;
+			children = (
+				9AC9D59821BE5968001C9925 /* JokerMemoryChallenge */,
+				9AC9D59721BE5968001C9925 /* Products */,
+				B5FEC3293CFAED757DF35908 /* Frameworks */,
+				515109ADAA896A3C895DAE6B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		9AC9D59721BE5968001C9925 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AC9D59621BE5968001C9925 /* Joker Challenge.app */,
+				9AEB94AB245839970022E76D /* Joker Challenge HD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AC9D59821BE5968001C9925 /* JokerMemoryChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				9AEB94B6245843C50022E76D /* Joker Memory Challenge HD.entitlements */,
+				9AEB94B7245844AA0022E76D /* Joker Memory Challenge.entitlements */,
+				3212539624C09A4800485CE5 /* AppDelegate.swift */,
+				3212537224C09A4800485CE5 /* Configurations */,
+				9A5B0829240EA78E00BF40FC /* LevelController */,
+				781E59F823FC8E5700B31CE2 /* backgroundMusic.mp3 */,
+				9A4D226C21BEC6D10073BBD5 /* GameMVC */,
+				9A4D227621BEC6D20073BBD5 /* OptionsMVC */,
+				9A4D227021BEC6D20073BBD5 /* PurchaseViewController.swift */,
+				9A4D227521BEC6D20073BBD5 /* ResultViewController.swift */,
+				9AC9D59B21BE5968001C9925 /* ViewController.swift */,
+				9A4D227921BEC6D20073BBD5 /* OptionsViewController.swift */,
+				327CB08E2452DB8F004FDD96 /* LooseViewController.swift */,
+				3299B72624506FC800D9E1D2 /* AudioManager.swift */,
+				3299B72424506FC800D9E1D2 /* AudioSource.swift */,
+				3299B72524506FC800D9E1D2 /* Options.swift */,
+				9AEB94AD24583C650022E76D /* Free */,
+				9AEB94AF24583C660022E76D /* HD */,
+				3299B72724506FC900D9E1D2 /* VibrationManager.swift */,
+				9AC4759C2436170F00A80BE9 /* Assets.xcassets */,
+				9AC9D59D21BE5968001C9925 /* Main.storyboard */,
+				9AC9D5A221BE596D001C9925 /* LaunchScreen.storyboard */,
+				3299B71424506BA800D9E1D2 /* music */,
+				9AC9D5A521BE596D001C9925 /* Info.plist */,
+				9AEB94AC245839980022E76D /* InfoHD.plist */,
+				781E59F423FC2F3300B31CE2 /* SpecialOfferViewController.swift */,
+			);
+			path = JokerMemoryChallenge;
+			sourceTree = "<group>";
+		};
+		9AEB94AD24583C650022E76D /* Free */ = {
+			isa = PBXGroup;
+			children = (
+				9AEB94AE24583C650022E76D /* GoogleService-Info.plist */,
+			);
+			path = Free;
+			sourceTree = "<group>";
+		};
+		9AEB94AF24583C660022E76D /* HD */ = {
+			isa = PBXGroup;
+			children = (
+				9AEB94B024583C660022E76D /* GoogleService-Info.plist */,
+			);
+			path = HD;
+			sourceTree = "<group>";
+		};
+		B5FEC3293CFAED757DF35908 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F2B03412278A5A900F142B1 /* GameKit.framework */,
+				056FEB16C6FB4D35F16D075E /* Pods_JokerMemoryChallengeHD.framework */,
+				5B490BECCF2008EA2D9C21C2 /* Pods_JokerMemoryChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AC9D59521BE5968001C9925 /* JokerMemoryChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC9D5A821BE596D001C9925 /* Build configuration list for PBXNativeTarget "JokerMemoryChallenge" */;
+			buildPhases = (
+				4DFA09E14BF02EDF3C51A3D0 /* [CP] Check Pods Manifest.lock */,
+				9AC9D59221BE5968001C9925 /* Sources */,
+				9AC9D59321BE5968001C9925 /* Frameworks */,
+				9AC9D59421BE5968001C9925 /* Resources */,
+				3F2B033F22789F3A00F142B1 /* Embed App Extensions */,
+				B7F1DADBF3AB8C2C55F5FEE7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JokerMemoryChallenge;
+			productName = Casumo;
+			productReference = 9AC9D59621BE5968001C9925 /* Joker Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AEB9477245839970022E76D /* JokerMemoryChallengeHD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AEB94A8245839970022E76D /* Build configuration list for PBXNativeTarget "JokerMemoryChallengeHD" */;
+			buildPhases = (
+				9AEB9478245839970022E76D /* [CP] Check Pods Manifest.lock */,
+				9AEB9479245839970022E76D /* Sources */,
+				9AEB9499245839970022E76D /* Frameworks */,
+				9AEB949C245839970022E76D /* Resources */,
+				9AEB94A6245839970022E76D /* Embed App Extensions */,
+				9AEB94A7245839970022E76D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JokerMemoryChallengeHD;
+			productName = Casumo;
+			productReference = 9AEB94AB245839970022E76D /* Joker Challenge HD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AC9D58E21BE5968001C9925 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					9AC9D59521BE5968001C9925 = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.GameCenter.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9AC9D59121BE5968001C9925 /* Build configuration list for PBXProject "JokerMemoryChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AC9D58D21BE5968001C9925;
+			productRefGroup = 9AC9D59721BE5968001C9925 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AC9D59521BE5968001C9925 /* JokerMemoryChallenge */,
+				9AEB9477245839970022E76D /* JokerMemoryChallengeHD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AC9D59421BE5968001C9925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321253A724C09A4800485CE5 /* PushViewController.xib in Resources */,
+				321253A124C09A4800485CE5 /* LoadingViewController.xib in Resources */,
+				9A5B082D240EA78E00BF40FC /* LevelController.xib in Resources */,
+				3212539D24C09A4800485CE5 /* LoadingView.xib in Resources */,
+				9AEB94B124583C660022E76D /* GoogleService-Info.plist in Resources */,
+				3299B71524506BA800D9E1D2 /* music in Resources */,
+				9AC9D5A421BE596D001C9925 /* LaunchScreen.storyboard in Resources */,
+				781E59F923FC8E5700B31CE2 /* backgroundMusic.mp3 in Resources */,
+				9AEB94B5245840BB0022E76D /* Assets.xcassets in Resources */,
+				9AC9D59F21BE5968001C9925 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEB949C245839970022E76D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321253A824C09A4800485CE5 /* PushViewController.xib in Resources */,
+				321253A224C09A4800485CE5 /* LoadingViewController.xib in Resources */,
+				9AEB949E245839970022E76D /* LevelController.xib in Resources */,
+				3212539E24C09A4800485CE5 /* LoadingView.xib in Resources */,
+				9AEB94B324583C870022E76D /* GoogleService-Info.plist in Resources */,
+				9AEB94A0245839970022E76D /* music in Resources */,
+				9AEB94A1245839970022E76D /* LaunchScreen.storyboard in Resources */,
+				9AEB94A2245839970022E76D /* backgroundMusic.mp3 in Resources */,
+				9AEB94B4245840AA0022E76D /* Assets.xcassets in Resources */,
+				9AEB94A4245839970022E76D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DFA09E14BF02EDF3C51A3D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JokerMemoryChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AEB9478245839970022E76D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JokerMemoryChallengeHD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AEB94A7245839970022E76D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JokerMemoryChallengeHD/Pods-JokerMemoryChallengeHD-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JokerMemoryChallengeHD/Pods-JokerMemoryChallengeHD-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JokerMemoryChallengeHD/Pods-JokerMemoryChallengeHD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7F1DADBF3AB8C2C55F5FEE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JokerMemoryChallenge/Pods-JokerMemoryChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JokerMemoryChallenge/Pods-JokerMemoryChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JokerMemoryChallenge/Pods-JokerMemoryChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AC9D59221BE5968001C9925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4D227C21BEC6D20073BBD5 /* GameViewController.swift in Sources */,
+				9AC9D59C21BE5968001C9925 /* ViewController.swift in Sources */,
+				3299B72924506FC900D9E1D2 /* Options.swift in Sources */,
+				321253B924C09A4800485CE5 /* RemoteConfigManager.swift in Sources */,
+				9A4D227D21BEC6D20073BBD5 /* Card.swift in Sources */,
+				321253BD24C09A4800485CE5 /* LinkBuilder.swift in Sources */,
+				321253B524C09A4800485CE5 /* LaunchArguments.swift in Sources */,
+				321253B124C09A4800485CE5 /* UserAgent.swift in Sources */,
+				321253CB24C09A4800485CE5 /* AppDelegate.swift in Sources */,
+				321253C524C09A4800485CE5 /* NotificationManager.swift in Sources */,
+				9A5B082E240EA78E00BF40FC /* LevelController.swift in Sources */,
+				321253BB24C09A4800485CE5 /* ConfigurationManager.swift in Sources */,
+				321253AB24C09A4800485CE5 /* AppInfo.swift in Sources */,
+				321253B724C09A4800485CE5 /* AppSettings.swift in Sources */,
+				321253BF24C09A4800485CE5 /* APIManager.swift in Sources */,
+				321253C124C09A4800485CE5 /* SessionManager.swift in Sources */,
+				321253C724C09A4800485CE5 /* ConfigurationSettingsStorage.swift in Sources */,
+				321253C924C09A4800485CE5 /* NavigationCoordinator.swift in Sources */,
+				3212539924C09A4800485CE5 /* TestManger.swift in Sources */,
+				9A4D228621BEC6D20073BBD5 /* GameSettings.swift in Sources */,
+				3299B72B24506FC900D9E1D2 /* VibrationManager.swift in Sources */,
+				321253A524C09A4800485CE5 /* PushViewController.swift in Sources */,
+				321253A924C09A4800485CE5 /* Logger.swift in Sources */,
+				321253C324C09A4800485CE5 /* AdMobManager.swift in Sources */,
+				3299B72824506FC900D9E1D2 /* AudioSource.swift in Sources */,
+				9A4D228221BEC6D20073BBD5 /* ResultViewController.swift in Sources */,
+				327CB08F2452DB8F004FDD96 /* LooseViewController.swift in Sources */,
+				781E59F523FC2F3300B31CE2 /* SpecialOfferViewController.swift in Sources */,
+				321253AF24C09A4800485CE5 /* DeviceInfo.swift in Sources */,
+				9A4D228521BEC6D20073BBD5 /* OptionsViewController.swift in Sources */,
+				3212539F24C09A4800485CE5 /* LoadingView.swift in Sources */,
+				321253A324C09A4800485CE5 /* LoadingViewController.swift in Sources */,
+				3299B72A24506FC900D9E1D2 /* AudioManager.swift in Sources */,
+				321253B324C09A4800485CE5 /* StringExtenstions.swift in Sources */,
+				321253AD24C09A4800485CE5 /* Keychain.swift in Sources */,
+				9A4D228421BEC6D20073BBD5 /* OptionsTableViewCell.swift in Sources */,
+				3212539B24C09A4800485CE5 /* NibLoadableProtocol.swift in Sources */,
+				9A4D227B21BEC6D20073BBD5 /* Concentration.swift in Sources */,
+				9A4D227E21BEC6D20073BBD5 /* PurchaseViewController.swift in Sources */,
+				3212539724C09A4800485CE5 /* TestRemoteManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEB9479245839970022E76D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AEB947A245839970022E76D /* GameViewController.swift in Sources */,
+				9AEB947C245839970022E76D /* ViewController.swift in Sources */,
+				9AEB947D245839970022E76D /* Options.swift in Sources */,
+				321253BA24C09A4800485CE5 /* RemoteConfigManager.swift in Sources */,
+				9AEB9480245839970022E76D /* Card.swift in Sources */,
+				321253BE24C09A4800485CE5 /* LinkBuilder.swift in Sources */,
+				321253B624C09A4800485CE5 /* LaunchArguments.swift in Sources */,
+				321253B224C09A4800485CE5 /* UserAgent.swift in Sources */,
+				321253CC24C09A4800485CE5 /* AppDelegate.swift in Sources */,
+				321253C624C09A4800485CE5 /* NotificationManager.swift in Sources */,
+				9AEB9481245839970022E76D /* LevelController.swift in Sources */,
+				321253BC24C09A4800485CE5 /* ConfigurationManager.swift in Sources */,
+				321253AC24C09A4800485CE5 /* AppInfo.swift in Sources */,
+				321253B824C09A4800485CE5 /* AppSettings.swift in Sources */,
+				321253C024C09A4800485CE5 /* APIManager.swift in Sources */,
+				321253C224C09A4800485CE5 /* SessionManager.swift in Sources */,
+				321253C824C09A4800485CE5 /* ConfigurationSettingsStorage.swift in Sources */,
+				321253CA24C09A4800485CE5 /* NavigationCoordinator.swift in Sources */,
+				3212539A24C09A4800485CE5 /* TestManger.swift in Sources */,
+				9AEB9484245839970022E76D /* GameSettings.swift in Sources */,
+				9AEB9485245839970022E76D /* VibrationManager.swift in Sources */,
+				321253A624C09A4800485CE5 /* PushViewController.swift in Sources */,
+				321253AA24C09A4800485CE5 /* Logger.swift in Sources */,
+				321253C424C09A4800485CE5 /* AdMobManager.swift in Sources */,
+				9AEB9487245839970022E76D /* AudioSource.swift in Sources */,
+				9AEB948A245839970022E76D /* ResultViewController.swift in Sources */,
+				9AEB948D245839970022E76D /* LooseViewController.swift in Sources */,
+				9AEB948F245839970022E76D /* SpecialOfferViewController.swift in Sources */,
+				321253B024C09A4800485CE5 /* DeviceInfo.swift in Sources */,
+				9AEB9490245839970022E76D /* OptionsViewController.swift in Sources */,
+				321253A024C09A4800485CE5 /* LoadingView.swift in Sources */,
+				321253A424C09A4800485CE5 /* LoadingViewController.swift in Sources */,
+				9AEB9493245839970022E76D /* AudioManager.swift in Sources */,
+				321253B424C09A4800485CE5 /* StringExtenstions.swift in Sources */,
+				321253AE24C09A4800485CE5 /* Keychain.swift in Sources */,
+				9AEB9494245839970022E76D /* OptionsTableViewCell.swift in Sources */,
+				3212539C24C09A4800485CE5 /* NibLoadableProtocol.swift in Sources */,
+				9AEB9497245839970022E76D /* Concentration.swift in Sources */,
+				9AEB9498245839970022E76D /* PurchaseViewController.swift in Sources */,
+				3212539824C09A4800485CE5 /* TestRemoteManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9AC9D59D21BE5968001C9925 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AC9D59E21BE5968001C9925 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AC9D5A221BE596D001C9925 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AC9D5A321BE596D001C9925 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AC9D5A621BE596D001C9925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AC9D5A721BE596D001C9925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AC9D5A921BE596D001C9925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31DF0C9FF8C9F7D328C787EB /* Pods-JokerMemoryChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "JokerMemoryChallenge/Joker Memory Challenge.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 69328639AJ;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/JokerMemoryChallenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmem.chall;
+				PRODUCT_NAME = "Joker Challenge";
+				PROVISIONING_PROFILE_SPECIFIER = JokerMemChalDistrProvision2;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9AC9D5AA21BE596D001C9925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F9645F8432A6E313711B73A /* Pods-JokerMemoryChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "JokerMemoryChallenge/Joker Memory Challenge.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 69328639AJ;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/JokerMemoryChallenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmem.chall;
+				PRODUCT_NAME = "Joker Challenge";
+				PROVISIONING_PROFILE_SPECIFIER = JokerMemChalDistrProvision2;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9AEB94A9245839970022E76D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B1D8FD8F19E7E474CD692C3 /* Pods-JokerMemoryChallengeHD.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconHD;
+				CODE_SIGN_ENTITLEMENTS = "JokerMemoryChallenge/Joker Memory Challenge HD.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 69328639AJ;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/JokerMemoryChallenge/InfoHD.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmem.challhd;
+				PRODUCT_NAME = "Joker Challenge HD";
+				PROVISIONING_PROFILE_SPECIFIER = JokerMemChalHDProvProf2;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9AEB94AA245839970022E76D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ECBAC33EED54B2A6B0FD4FF /* Pods-JokerMemoryChallengeHD.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconHD;
+				CODE_SIGN_ENTITLEMENTS = "JokerMemoryChallenge/Joker Memory Challenge HD.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 69328639AJ;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/JokerMemoryChallenge/InfoHD.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmem.challhd;
+				PRODUCT_NAME = "Joker Challenge HD";
+				PROVISIONING_PROFILE_SPECIFIER = JokerMemChalHDProvProf2;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AC9D59121BE5968001C9925 /* Build configuration list for PBXProject "JokerMemoryChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC9D5A621BE596D001C9925 /* Debug */,
+				9AC9D5A721BE596D001C9925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC9D5A821BE596D001C9925 /* Build configuration list for PBXNativeTarget "JokerMemoryChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC9D5A921BE596D001C9925 /* Debug */,
+				9AC9D5AA21BE596D001C9925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AEB94A8245839970022E76D /* Build configuration list for PBXNativeTarget "JokerMemoryChallengeHD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AEB94A9245839970022E76D /* Debug */,
+				9AEB94AA245839970022E76D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AC9D58E21BE5968001C9925 /* Project object */;
+}
